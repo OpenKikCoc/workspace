@@ -5,6 +5,20 @@
 sudo apt-get install redshift redshift-gtk
 ```
 
+如果出现 `Failed to run Redshift: Trying location provider 'geoclue2'...` 执行以下指令
+
+```sh
+sudo apt-get install geoclue-2.0
+```
+
+仍不能解决问题则：
+
+>
+> turn on Settings > Privacy > Location Services
+>
+> [Issue #445](https://github.com/jonls/redshift/issues/445)
+>
+
 ### typora
 
 ```sh
