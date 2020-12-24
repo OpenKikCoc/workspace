@@ -44,6 +44,19 @@
 >
 >   ### 拓展
 >
+>   C++ 编译指令:
+>
+>   ```sh
+>   /usr/local/bin/g++-10 -Wall -std=c++17 --sysroot=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk
+>
+>   # 在此之前, 安装 g++ 10.2 for big_sur:
+>   brew install gcc@10
+>   # 获取 SDK 位置
+>   # blog: https://qiita.com/Rascal/items/b92d94631adfbd19522a
+>   xcrun --sdk macosx --show-sdk-path 
+> 
+>   ```
+> 
 >   Clang Format:
 >
 >   ```sh
