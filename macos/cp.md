@@ -1,12 +1,16 @@
 # cp bits/stdc++ for MacOS
 
 ```shell
-cd /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1
+# ATTENTION: v1 or sth else.
+# Depends on the output of `g++ -v` (--with-gxx-include-dir)
+cd /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1
 
 mkdir bits
 
 vim bits/stdc++.h
 ```
+
+**`cstdalign` maybe not found, just delete this line**
 
 ```c++
 // C++ includes used for precompiling -*- C++ -*-
